@@ -1,0 +1,176 @@
+body{
+  margin-top:0px;
+  font-size:16px;
+}
+
+.navbar-default{
+  background:#fff;
+  border:0;
+  
+}
+
+#showcase{
+
+	overflow: hidden;
+	padding: 3% 0%;
+	
+	background-color: hsl(240, 17%, 29%);
+}
+
+.left{
+	color: #fff;
+	padding-top: 10%;
+}
+
+.showcase-btn{
+	color: #fff;
+	border-radius: 30px;
+	text-decoration: none;
+	background-color: #FF6500;
+}
+
+.showcase-btn:hover{
+	color: #fff;
+	background-color: red;
+	text-decoration: none;
+}
+
+#showcase img{
+  width:100%;
+ 
+}
+
+#boxes{
+  background-color: #e0e0e0;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:55px;
+}
+
+#boxe{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#boxe .box{
+  float:left;
+  text-align: center;
+  width:32%;
+  padding:10px;
+}
+
+.t h4{
+	margin-left: 35%;
+	color: #FF6500;
+}
+
+.t h1{
+	margin-left: 25%;
+}
+
+#showcase-s{
+	background-color: #21abcd;
+	padding: 5% 10% 5% 10%;
+}
+
+#showcase-s .showcase-right{
+	margin-top: 10%;
+	background-image: url("img/capture.jpg");
+
+}
+
+#showcase-s img{
+	width: 100%;
+
+}
+
+#showcase-a .showcase-left{
+	width: 90%;
+	margin-left: 30%;
+}
+
+#showcase-a h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase-a .showcase-right{
+  margin-top:30%;
+}
+
+#t01 {
+
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 5%;
+    width: 40%;
+    height: 70%; 
+    background-color: #f2f3f4;
+}
+ ul{
+	list-style: none;
+	margin-left: 37%;
+}
+ul li{
+	float: left;
+	margin-left: 1%;
+	
+}
+footer{
+	font-size: 15px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+@media (max-width: 768px){
+	nav, nav li,
+	#shocase,#boxes .box,
+	#boxe .box{
+		float:none;
+    text-align:center;
+    width:100%;
+	}
+
+	#showcase-a .showcase-left .showcase-right{
+		width: 100%;
+		margin: 0% 0% 0% 0%;
+	}
+
+	#showcase-f table{
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	body{
+		overflow-x: hidden;
+		font-size: 15px;
+	}
+
+	#showcase-s table{
+		width: 100%;
+	}
+	#showcase-s table tr th .ta{
+		font-size: 10px;
+	}
+
+	footer{
+		font-size: 10px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	}
+
+	ul li{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+}
